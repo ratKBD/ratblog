@@ -10,7 +10,7 @@ const BlogItem = (props) => {
     year: "numeric",
   });
 
-  const exploreDetails = `events/${slug}`;
+  const exploreDetails = `/events/${slug}`;
 
   return (
     <div className={classes.container}>
