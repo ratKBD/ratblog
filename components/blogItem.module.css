@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  width: 33%;
+  min-width: 400px;
+  height: 650px;
+  margin-top: 10%;
+  /* border: 2px solid red; */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 400px;
+  /* margin-top: -200px; */
+}
+
+.title {
+  text-decoration: none;
+  color: #46b2c8;
+  width: 350px;
+  text-align: start;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.align {
+  display: flex;
+  text-align: start;
+}
