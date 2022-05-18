@@ -1,7 +1,7 @@
-import classes from "./blogItem.module.css";
+import classes from "./blogItems.module.css";
 import Image from "next/image";
 import Link from "next/link";
-const BlogItem = (props) => {
+const BlogItems = (props) => {
   const { title, image, published, author, alt, slug } = props;
 
   const readableDate = new Date(published).toLocaleDateString("en-IN", {
@@ -31,4 +31,4 @@ const BlogItem = (props) => {
   );
 };
 
-export default BlogItem;
+export default BlogItems;

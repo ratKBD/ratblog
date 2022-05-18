@@ -1,23 +1,23 @@
-import SlugItem from "./slugItem";
+import BlogItems from "./BlogItems";
 
-const SlugList = (props) => {
+const BlogLists = (props) => {
   const { items } = props;
   return (
     <div>
-      {items?.map((item) => (
-        <SlugItem
+      {items.map((item) => (
+        <BlogItems
           key={item.id}
           id={item.id}
           title={item.title}
-          teaser={item.teaser}
           author={item.author}
           published={item.published_at}
           image={item.image.url}
           alt={item.image.alternativeText}
+          slug={item.slug}
         />
       ))}
     </div>
   );
 };
 
-export default SlugList;
+export default BlogLists;

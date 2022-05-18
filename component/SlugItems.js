@@ -1,4 +1,4 @@
-import classes from "./slugItem.module.css";
+import classes from "./slugItems.module.css";
 import Image from "next/image";
 
 const SlugItem = (props) => {

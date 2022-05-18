@@ -1,4 +1,4 @@
-import SlugList from "../../components/SlugList";
+import SlugList from "../../component/SlugLists";
 
 const BlogDetail = (props) => {
   return (

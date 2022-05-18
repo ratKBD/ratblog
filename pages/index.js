@@ -1,5 +1,5 @@
-import BlogList from "../components/bloglist";
-import Header from "../components/header";
+import BlogLists from "../component/BlogLists";
+import Header from "../component/header";
 import { getAllItems } from "../helper/helper-util";
 
 const HomePage = (props) => {
@@ -7,7 +7,7 @@ const HomePage = (props) => {
     <div>
       <Header />
       <div>
-        <BlogList items={props.items} />
+        <BlogLists items={props.items} />
       </div>
     </div>
   );
